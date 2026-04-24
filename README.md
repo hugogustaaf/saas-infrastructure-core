@@ -128,7 +128,4 @@ if (existingReceipt) throw new Error("⛔ SCAM ALERT: Receipt already utilized!"
 ### 2. Live Server Telemetry
 ![VPS Resource Monitor](./assets/vps_htop.png)
 *PM2 and htop metrics demonstrating stable heap memory allocation and CPU usage under load.*
-
-### 3. Automated Error Mitigation
-![OCR Logs](./assets/ocr_logs.png)
 *Terminal output showcasing the AI successfully intercepting a duplicated receipt attempt and the Cron worker recovering an unsent payload.*
